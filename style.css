@@ -1,0 +1,101 @@
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.container-center {
+    background-color: #ececec;
+    border-radius: 5px;
+    padding: 50px;
+    margin: auto auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+}
+
+
+.img-center img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 2.75rem;
+}
+
+.resume-title {
+    padding: 20px;
+}
+/* Section on Css Preparation time*/
+
+.preparation-title {
+
+color: rgb(92, 18, 18);
+
+}
+
+ul li {
+    padding: 10px;
+    margin-left: -15px;
+    
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Section on Css Ingredients*/
+
+
+.title {
+    color: rgb(92, 18, 18);
+    font-size: 2.0rem;
+
+}
+/* lineheight */
+
+.line-decoration {
+  content: " ";
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.178);
+    
+
+
+}
+
+/* Session on css Instructions */
+
+.list-number li {
+    color: rgb(92, 18, 18);
+    padding: 10px;
+}
+.list-number li span {
+    color: black;
+}
+/* Session on css nutrition*/
+.nutrition-table .item {
+    padding: .75rem 2rem;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.nutrition-table .item p :last-child {
+    border-bottom: 0;
+}
+
+.nutriton-table .item:nth-child(2) {
+    color: green;
+    font-weight: 700;
+}
+
+.nutrition-table .item > * {
+    width: 100px;
+    margin-right:auto ;
+}
+
+.amount {
+    color: rgb(92, 18, 18);
+    font-weight: 700;
+}
